@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+font-family:"Poppins",sans-serif;
+}
+.banner img{
+    height:47px;
+    width:80px;
+    margin-left:50px;
+}
+nav{
+    display:flex;/*makes the elements adjacent to each other*/
+    justify-content: space-between;/*adds auto space between elements*/
+    max-width:1360px;
+    height:55px;
+    margin-left:30px;
+    align-items:center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+   gap:24px;
+
+}
+button{
+   color:white;
+   background-color:#D01C28;
+   border:red;
+   padding:6px,16px,6px,16px;
+    height:31px;
+    width:75px;
+}
+button:hover{
+    background-color:#89121a;
+    
+}
+main{
+    width:1125px;
+    height:613px;
+    margin-left:210px;
+    margin-top:60px;
+    display:flex;
+    justify-content: space-between;
+    
+    align-items:center;
+}
+.shoe img{
+    height:480px;
+    width:510px;
+}
+.content h1{
+    margin-top:-90px;
+    font-size:100px;
+    font-weight:710;
+    line-height:102px;
+}
+.content p{
+    margin-top:-40px;
+    font-weight:600;
+    line-height:24px;
+    font-size:16px;
+}
+.content .but{
+    display:flex;
+    Padding:6px, 16px, 6px, 16px;
+    gap:40px;
+    transition: 0.5s;
+}
+.but .button1:hover{
+    background-color:#89121a;
+    transition: 0.5s;
+    
+}
+.content .but .but2{
+    background-color: white;
+    color:black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+.but .but2:hover{
+    transition: 0.5s;
+    
+    background-color: rgb(91, 88, 88);
+    color:white;
+}
+.content .shops{
+    display:flex;
+    gap:10px;
+}
+.content h4{
+    transform:translateY(10px);
+    font-weight:400;
+}
